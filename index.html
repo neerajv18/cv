@@ -1,87 +1,169 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+  <head>
+    <title>MySite</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="author" content="Neeraj">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="referrer" content="strict-origin">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
 
-<head>
-  <meta charset="utf-8">
-  <title>Neeraj V</title>
-</head>
+    <!-- menu bar -->
+      <div class="navbar">
+        <div class="menu">
+          <a href="#header">Home</a>
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <!-- <a href="#work">Works</a> -->
+        </div>
+      </div>
 
-<body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="images/neeraj.jpg" alt="neeraj's picture"></td>
-      <td>
-        <h1>Neeraj V</h1>
-        <p>
-          <i>Cyber security Student at <strong><a href="https://www.iiitmk.ac.in">IIITMK</a></strong></i>
-        </p>
-        <p>I am from Thalassery and currently pursuing Msc in Cyber Security</p>
-        <hr />
-      </td>
-    </tr>
-  </table>
-  <hr>
+    <!-- header -->
+
+    <div class="header" id="header">
+      <div class="name center">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row heading">
+                    <div class="mx-auto center">
+                        <h1 class="head-name">My Portfolio</h1>
+                        <p class="intro-text">NEERAJ V</p>
+                      </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about session -->
+    <div class="about" id="about">
+      <div class="about-left">
+        <div class="photo">
+          <img src="img/neeraj.jpg" alt="Neeraj">
+        </div>
+      </div>
+      <div class="about-right">
+        <h2 class="about-tex">About Me</h2>
+        <p class="aboutp">I am a Pentester , Traveller , Civil Engineer hailing from Thalassery. My aim is to achieve greater heights in the field of cyber security and spread the awareness of cyber security into the society for the greater good. I am currently pursuing Msc in Cyber security in IIITMK TVM</p>
+      </div>
+    </div>
+
+    <!-- education session -->
+    <div class="education" id="education">
+      <h2 class="center edu">EDUCATION</h2>
+        <table id="edu-t">
+          <thead>
+            <tr>
+              <th class="center">No.</th>
+              <th>Qualification</th>
+              <th>Name of Institute</th>
+              <th>Board</th>
+              <th class="center">Year of Passing</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="center">1</td>
+              <td class="center">Msc</td>
+              <td>IIITM-K</td>
+              <td>CUSAT</td>
+              <td class="center">2020</td>
+            </tr>
+            <tr>
+              <td class="center">2</td>
+              <td class="center">Btech</td>
+              <td>TKM College Of Engineering</td>
+              <td>Kerala University</td>
+              <td class="center">2017</td>
+            </tr>
+            <tr>
+              <td class="center">3</td>
+              <td class="center">HSE</td>
+              <td>RVHSS Thalassery</td>
+              <td>Kerala HSE</td>
+              <td class="center">2012</td>
+            </tr>
+            <tr>
+              <td class="center">4</td>
+              <td class="center">10th</td>
+              <td>AMRITA VIDYALAYAM Thalassery</td>
+              <td>CBSE</td>
+              <td class="center">2010</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+
+    <!-- Projects -->
+    <div class="projects" id="projects">
+      <h2>PROJECTS</h2>
+      <div class="ids-1">
+        <img src="img/shield.png" alt="ids1-image">
+        <h3>IDS using ML</h3>
+        <p>An intrusion detection system incorporating Machine Learning was developed using SNORT, Weka by analysing the KDD99 Data set for the first year Project for Msc</p>
+      </div>
+      <div class="ids-2">
+        <img src="img/iot.png" alt="iot-image">
+        <h3>IDS in IOT network</h3>
+        <p>An IDS for the RPL network in IOT developed using COOJA , CONTIKI simulator</p>
+
+      </div>
+
+    </div>
 
 
-  <h3>Education</h3>
-  <table border="2" cellspacing="10">
-    <thead>
-      <tr>
-        <th>Year</th>
-        <th>Details</th>
-      </tr>
 
-    </thead>
-    <tbody>
-      <tr>
-        <td>2010</td>
-        <td>Completed 10th std at Amrita Vidyalayam</td>
-      </tr>
-      <td>2012</td>
-      <td>Completed Plus Two at RVHSS</td>
-      <tr>
-        <td>2017</td>
-        <td>Completed Btech from TKM</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>C language</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Kali linux</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-  </table>
-  <hr>
-
-  <h3>Hobbies</h3>
-  <ol type="i">
-    <li>Listening to music</li>
-    <li>Watching DIY videos</li>
-  </ol>
-
-</body>
-<form class="" action="index.html" method="post">
-<label>Do u know me</label>
-<input type="checkbox" name="" value="">
-</form>
-
-<hr>
-<h3>Contact Me</h3>
-<form action="mailto:neerajv18@gmail.com" method="post" enctype="text/plain">
-  <label>Your name:</label>
-  <input type="text" name="Your name" value=""><br>
-  <label>Your email:</label>
-  <input type="email" name="your mail id" value=""><br>
-  <label>Your message</label>
-  <textarea name="message" rows="2" cols="10"></textarea>
-  <input type="submit" name="" value="">
-
-
-</form>
+    <div class="footer">
+      <div class="container">
+        <div class="rowf">
+        <div class="column">
+          <h5 class="white-text">Neeraj V</h5>
+          <p class="add">RAMANARAYANA HOUSE</p>
+          <p class="add">PARAL P.O</p>
+          <p class="add">THALASSERY</p>
+          <p class="add">670671</p>
+        </div>
+        <div class="column">
+          <h5 class="white-text center">Current Position</h5>
+            <p class="add center">MSc. Cyber Security</p>
+            <p class="add center">IIITM-K</p>
+            <p class="add center">Kerala</p>
+            <p class="add center">695581</p>
+        </div>
+        <div class="column">
+          <h5 class="white-text con">Contact Details</h5>
+            <div class="email">
+              <p class="add email-i">neerajv18@gmail.com</p><br>
+              <p class="add email-i">neeraj.cs3@iiitmk.ac.in</p><br>
+              <p class="add email-i">+91 9496831569</p><br>
+            </div>
+        </div>
+      </div><br>
+      <div class="copy">
+        <div class="center so-li">
+          <a href="https://github.com/neerajv18"><i class="fa fa-2x fa-github icon"></i></a>
+          <a href="https://www.facebook.com/neerajv18"><i class="fa fa-2x fa-facebook icon"></i></a>
+          <a href="https://www.linkedin.com/in/neeraj-v-364b81a7"><i class="fa fa-2x fa-linkedin icon"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="validator center">
+      <p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+  <img style="border:0;width:88px;height:31px"
+      src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+      alt="Valid CSS!" />
+  </a>
+</p>
+      <a href="http://validator.w3.org/check?uri=referer"><img
+        src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Strict" height="31" width="88"></a>
+    </p>
+    </div>
+  </div>
+  </body>
 </html>
